@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* main css style*/
+main {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    position: relative;
+    width: 480px;
+    min-height: 100vh;
+    height: fit-content;
+    background-color: #c2d3dc26;
+
+}
+
+/* navbar css */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5.7vh;
+    background: linear-gradient(to right, rgb(230, 85, 85), rgb(230, 125, 125));
+}
+
+nav h4 {
+    font-size: 30px;
+}
+
+#first_i {
+    position: absolute;
+    left: 4%;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+
+#second_i {
+    position: absolute;
+    left: 90%;
+    font-size: 25px;
+}
+
+/* effect on clicl */
+#first_i {
+    transition: all 0.3s ease;
+}
+
+#first_i:hover {
+    border-radius: 5px;
+    font: size 50px;
+    ;
+    background-color: #ffffff;
+    transform: scale(1.1);
+    opacity: 1;
+    color: red;
+
+}
+
+#dataViewSelector {
+    position: absolute;
+    /* top: 0; */
+    justify-self: center;
+    background-color: rgb(235, 103, 103);
+    font-size: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 5vh;
+    margin: 70px 5px 0px 5px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+#chartdata {
+    position: absolute;
+    top: 105px;
+    width: 100%;
+    height: 85.4vh;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#chartdatamain {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* another item div */
+#another_item {
+    visibility: hidden;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: rgb(231, 138, 138);
+}
+
+/* table data css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid  rgb(235, 103, 103);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.red {
+    background: linear-gradient(to right,red, rgba(255, 0, 0, 0.5));
+    color: white;
+}
+
+.green {
+    background: linear-gradient(to right,green, rgba(0, 128, 0, 0.5));
+
+    color: white;
+}
+
+.red-violet {
+    background: linear-gradient(to right,red, rgb(246, 0, 246));
+
+    color: white;
+}
+
+.green-violet {
+    background: linear-gradient(to right,green, rgb(246, 4, 246));
+
+    color: white;
+}

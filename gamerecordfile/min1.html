@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min1</title>
+    <link rel="stylesheet" href="min1.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <main>
+        <nav>
+            <i id="first_i" class="ri-arrow-left-s-line"></i>
+            <h4>1Min GameRecord</h4>
+            <i id="second_i" class="ri-robot-2-line"></i>
+        </nav>
+        <select id="dataViewSelector">
+            <option value="search">Current Option Chart</option>
+            <option value="daily">DayWish Chart</option>
+            <option value="PeriodWish">PeriodWish Chart</option>
+            <option value="search">User Search Chart</option>
+
+        </select>
+        <div id="chartdata">
+            <div id="another_item"></div>
+
+            <div id="chartdatamain">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                          <th>Issue Number</th>
+                          <th>Number</th>
+                          <th>Size</th>
+                          <!-- <th>Premium</th> -->
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- Data rows will be dynamically inserted here -->
+                      </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../assets/js/min1.js"></script>
+
+
+</html>

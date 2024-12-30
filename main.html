@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <!-- preloading data -->
+    <link rel="preload" href="./gamerecordfile/min1.css" as="style">
+    <link rel="preload" href="./gamerecordfile/min3.css" as="style">
+    <link rel="preload" href="./gamerecordfile/min5.css" as="style">
+    <link rel="preload" href="./gamerecordfile/sec30.css" as="style">
+    <link rel="preload" href="./assets/js/min1.js" as="script">
+    <link rel="preload" href="./assets/js/min3.js" as="script">
+    <link rel="preload" href="./assets/js/min5.js" as="script">
+    <link rel="preload" href="./assets/js/sec30.js" as="script">
+    <link rel="preload" href="./data/min1.json" as="fetch" type="application/json">
+    <link rel="preload" href="./data/min3.json" as="fetch" type="application/json">
+    <link rel="preload" href="./data/min5.json" as="fetch" type="application/json">
+    <link rel="preload" href="./data/sec30.json" as="fetch" type="application/json">
+    <link rel="preload" href="./gamerecordfile/min1.html" as="document">
+    <link rel="preload" href="./gamerecordfile/min3.html" as="document">
+    <link rel="preload" href="./gamerecordfile/min5.html" as="document">
+    <link rel="preload" href="./gamerecordfile/sec30.html" as="document">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <nav>
+            <i id="first_i" class="ri-arrow-left-s-line"></i>
+            <h4>91CLUB GameRecord</h4>
+            <i id="second_i" class="ri-robot-2-line"></i>
+        </nav>
+        <div id="main_option">
+            <div class="option" id="sec30"><i class="ri-timer-line"></i><br>
+                <p>Win Go<br>30s</p>
+            </div>
+            <div class="option" id="min1"><i class="ri-timer-line"></i><br>
+                <p>Win Go<br>1Min</p>
+            </div>
+            <div class="option" id="min3"><i class="ri-timer-line"></i><br>
+                <p>Win Go<br>3Min</p>
+            </div>
+            <div class="option" id="min5"><i class="ri-timer-line"></i><br>
+                <p>Win Go<br>5Min</p>
+            </div>
+        </div>
+        
+
+    </main>
+    
+    <div class="main-container">
+        <p id="user-info"></p><br>
+        <button id="logout" class="btn">Logout</button>
+    </div>
+</body>
+
+<script src="./assets/js/main.js"></script>
+
+</html>
