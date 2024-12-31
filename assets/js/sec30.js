@@ -45,7 +45,7 @@ function populateTable(data) {
   }
 
   // Fetch JSON data from an external file
-  fetch('../data/main.json')
+  fetch('../data/sec30.json')
     .then(response => response.json())
     .then(data => {
       populateTable(data);
